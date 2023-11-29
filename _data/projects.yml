@@ -1,16 +1,39 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+- project: Dacon 제1회 국민대학교 AI빅데이터 분석 경진대회
+  role: 21st/1,125 (Top 4%) as a Solo
+  duration: Oct, 2023 &mdash; Nov, 2023
+  # url: "#"
+  description: 채용공고 AI 추천 알고리즘 대회 - 팀명 hoeen <ul class="resume-item-list"><li>public 점수의 과적합 가능성을 고려, 베이지안 최적화를 활용한 가중치 앙상블로 모델의 일반성 높임 </li><li>유저/아이템 협업 필터링, 콘텐츠/인기도 기반 추천, ALS MF 등을 다양하게 활용</li>
+
+
+- project: Kaggle - Predict Student Performance from Game Play
+  role: 추천 모델링 및 백엔드
+  duration: May 2023 &mdash; Jun 2023
   # url: "#"
   description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+
+- project: 길동국사 - 한국사능력검정시험 기출문제 개인화 추천 서비스
+  role: 추천 모델링 담당
+  duration: Jan 2023 &mdash; Feb 2023
+  # url: "#"
+  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+
+- project: NEOWISE 우주망원경 원시성 관측 데이터 분석
+  role: Master's Student
+  duration: Jan 2020 &mdash; Aug 2021
+  # url: "#"
+  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+
+
+#   # Springfield Community Outreach Group
+# - project: Springfield Community Outreach Group
+#   role: Co-Founder & Organizer
+#   duration: 2007 &mdash; Present
+#   # url: "#"
+#   description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+

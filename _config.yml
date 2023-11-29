@@ -10,11 +10,11 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Wooseok Park 박우석"
+resume_title:                   "Junior Data Scientist"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "hoeen5373@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "555-7334"
@@ -23,7 +23,7 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>협업 능력과 꾸준함이 강점인 데이터 과학자, 박우석입니다. 8명의 공저자들과 함께 관측 데이터 분석 결과를 SCIE급 저널에 1저자로 기고하였으며, 5인 팀 프로젝트로 추천 시스템 서비스를 구축, 실사용자 확보 및 A/B 테스트를 수행한 경험이 있습니다. 현재는 추천 시스템과 그래프 이론에 관심을 갖고 공부하고 있으며, 지속적인 Kaggle 대회 참여로 실전 데이터 분석 및 예측에도 계속 도전하고 있습니다.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -45,14 +45,14 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_github_url:            "https://github.com/hoeen"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/hoeen/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings

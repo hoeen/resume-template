@@ -1,19 +1,31 @@
 # Jobs
 # VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: Humelo Inc.
+  position: AI Researcher (Full-time)
+  duration: Jul, 2023 &mdash; Present
+  summary: 음성 데이터 수집 및 AI 오픈소스 기술 조사 담당 <ul class="resume-item-list"><li>openai-whisper 관련 사내 레거시 코드를 활용하여 다국어 전사 프로세스 개발, 6개 언어 총 300시간의 다국어 오디오 전사 및 수집 </li><li>Singing Voice Conversion 오픈소스 AI 기술 조사 및 도커를 활용한 모델별 실시간 음성변조 환경 구성</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# 우리랑코리아 전처리
+# 음성데이터 수집 가이드라인
+# 음성변조 사용기술 조사 및 기술개선
+# 비언어 표현 테스트
 
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# AI researcher
+# 음성 데이터 수집 및 관련 AI 오픈소스 기술 조사 담당
+# - openai-whisper 관련 사내 레거시 코드를 활용하여 다국어 전사 프로세스 개발, 6개 언어 총 300시간의 다국어 오디오 전사 및 수집 
+# - Singing Voice Conversion 오픈소스 기술 조사 및 도커를 활용한 모델별 실시간 음성변조 환경 구성 
+
+
+# # Director of Digital Stratgy
+# - company: United Nations Human Rights Council
+#   position: Director of Digital Strategy
+#   duration:  Jun, 2010 &mdash; Sept, 2013
+#   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+
+
+# # Communications Coordinator
+# - company: Springfield Women & Children's Center
+#   position: Communications Coordinator
+#   duration:   Jun, 2008  &mdash; May, 2010
+#   summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
