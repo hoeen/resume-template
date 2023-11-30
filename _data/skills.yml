@@ -1,12 +1,25 @@
 # Skills
 # Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Python
+  description: <ul class="skills-item-list"><li>데이터 핸들링 및 시각화</li><li>통계분석, 수리모델링</li>
 
 # Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Pytorch
+  description: <ul class="skills-item-list"><li>추천 시스템 모델링</li><li>딥러닝 모델 구조 파악 및 활용 목적에 따른 부분적 모델 수정</li>
+
+- skill: Git
+  description: <ul class="skills-item-list"><li>버전관리, 브랜치 병합 및 충돌 해결 가능</li>
+
+- skill: Docker
+  description: <ul class="skills-item-list"><li>업무 목적에 맞는 docker 환경 구성</li>
+
+- skill: MySQL, FastAPI
+  # description: Content and marketing strategy,
+
+- skill: 기타 업무적 역량
+  description: <ul class="skills-item-list"><li>비즈니스 영어 회화 및 글로벌 협업 역량</li>
+
 
 # Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+# - skill: Digital content development and creation
+#   description: Copy writing, graphic design, web design, front-end web development, print design

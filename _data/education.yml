@@ -1,13 +1,34 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Naver Boostcamp AI Tech - RecSys track
+  uni: Naver Connect
+  year: Sep 2022 &mdash; Feb 2023
+  # award: GPA 3.41 / 4.3
+  summary: 네이버 부스트캠프 4기 수료. 추천 시스템 학습 및 AI 추천 서비스 구현 경험 <ul class="education-item-list"><li>추천 시스템 모델링</li><li>AI 프로토타이핑 및 서빙</li>
+
+
+
+- degree: AI Bootcamp 
+  uni: Codestates
+  year: Sep 2021 &mdash; Apr 2022
+  # award: GPA 3.41 / 4.3
+  summary: 컴퓨터공학 및 인공지능 기초 학습<ul class="education-item-list"><li>통계, 머신러닝</li><li>자료구조, 알고리즘</li><li>데이터 엔지니어링</li>
+
+
+- degree: M.Sc. in Astrophysics
+  uni: School of Space Research, Kyung Hee University
+  year: Mar 2019 &mdash; Aug 2021
+  award: GPA 4.14 / 4.3
+  # url: "https://iopscience.iop.org/article/10.3847/1538-4357/ac1745"
+  # description: (석사 논문) 
+  summary: 석사 논문 - Quantifying Variability of Young Stellar Objects in the Mid-infrared Over 6 Years with the Near-Earth Object Wide-field Infrared Survey Explorer<ul class="education-item-list"><li>Signal Data Processing</li><li>Statistical Analysis</li><li>Infrared Astronomy</li>
+  
+# Radio / Infrared signal processing
+# Data Processing
+# Statistical Analysis
+
+- degree: Bachelor of Space science and Astrophysics
+  uni: Kyung Hee University
+  year: Mar 2013 &mdash; Feb 2019
+  award: GPA 3.41 / 4.3
+  # summary:
