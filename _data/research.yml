@@ -1,0 +1,5 @@
+- project: NEOWISE 우주망원경 원시성 관측 시계열 데이터 분석
+  # role: Master's Student
+  duration: Jan 2020 &mdash; Aug 2021
+  url: "https://github.com/hoeen/WISE_YSO_variability_analysis"
+  description: (석사과정 연구) 원시 항성계의 물리화학적 특성 연구의 일환으로써 원시성 시계열 데이터를 이용한 거시적인 밝기변화 양상 연구. 하늘 전역에서 수집된 약 5400개 원시성의 6.5년 간의 밝기변화를 추적하여 그 형태를 정량적으로 측정하고, 통계적 분석 결과 원시성이 초기 진화 단계에서 극심한 밝기변화를 보이며 후기 단계로 갈수록 그 변화가 감소한다는 결과를 도출하였음. <ul class="resume-item-list"><li>샘플링 및 이상치 제거로 기존 관측장비의 높은 noise-to-ratio를 줄이는 등 RAW 데이터를 가공하여 약 1700개의 변광 원시성을 발견.</li><li>밝기 시계열 데이터의 선형성 및 주기성, 밝기변화 진폭 등 새로운 feature를 생성. 이를 바탕으로 원시성의 다양한 밝기변화 형태를 6가지 (선형, 곡선형, 주기형, 일시적 폭발, 일시적 어두워짐, 불규칙형) 로 규명</li><li>원시성 각각의 진화 단계(Class 0~III)를 reference cross-match하여 초기 진화 단계 (Class 0-I) 에서 밝기변화가 두드러지며 이후 단계 (Class II-III)로 갈수록 밝기변화가 감소한다는 사실을 발견. 기존 시뮬레이션을 통한 이론적 예측을 강력히 뒷받침하는 연구 결과를 도출.</li><li>미국 Astrophysical Journal에 1저자로 논문 기고하여 40회 이상 인용됨</li>

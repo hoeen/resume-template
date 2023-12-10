@@ -3,7 +3,7 @@
 - company: Humelo Inc.
   position: AI Researcher (Full-time)
   duration: Jul, 2023 &mdash; Nov, 2023
-  summary: 음성 데이터 수집 및 AI 오픈소스 기술 조사 담당 <ul class="resume-item-list"><li>openai-whisper 관련 사내 레거시 코드를 활용하여 다국어 전사 프로세스 개발, 6개 언어 총 300시간의 다국어 오디오 전사 및 수집 </li><li>Singing Voice Conversion 오픈소스 AI 기술 조사 및 도커를 활용한 모델별 실시간 음성변조 환경 구성</li></ul>
+  summary: 음성 데이터 구축 및 AI 실시간 음성변조 엔지니어링 <ul class="resume-item-list"><li>사내 레거시 코드를 활용한 AI 음성인식 openai-whisper 다국어 오디오 데이터 정제 (6개 언어 총 300시간) </li><li>오픈소스 기반 AI 실시간 음성변조 데모 모델 개발</li></ul>
 
 # 우리랑코리아 전처리
 # 음성데이터 수집 가이드라인

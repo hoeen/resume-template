@@ -20,16 +20,11 @@
   role: 추천 모델링 담당
   duration: Jan 2023 &mdash; Feb 2023
   url: "https://github.com/boostcampaitech4lv23recsys1/level3_productserving-level3-recsys-03"
-  description: 유저 개인별 풀이 기록을 학습, 틀릴 가능성이 높은 문제를 개인화 추천하는 AI 서비스 구현<ul class="resume-item-list"><li>추천 시스템 패키지인 RecBole을 이용해 넓은 범위의 추천 모델 오프라인 테스팅을 수행하고 SASRec, EASE 를 user-based 추천 모델로 서빙</li><li>신규 유저의 Cold-Start 문제를 해결하기 위해 해설 키워드에서 형태소를 추출 및 임베딩하여 문제끼리의 유사도를 틀린 문제와 유사한 문제를 제공하는 컨텐츠 기반 추천모델을 구현</li><li>애자일한 프로젝트 방향 설정을 통해 빠른 이용자 유치에 성공. 프로젝트 기간 1개월 간 누적 유저 180명, 누적 문제풀이 수 12000건 이상 달성</li><li>모델 추천을 통한 사용자 오답률이 랜덤 추천 대비 40% 이상 증가함을 A/B 테스트로 확인, 모델의 효용성 검증.</li>
+  description: 유저 개인별 풀이 기록을 학습, 틀릴 가능성이 높은 문제를 개인화 추천하는 AI 서비스 구현<ul class="resume-item-list"><li>해설 키워드 형태소 추출, 임베딩을 활용한 컨텐츠 기반 추천으로 신규 유저의 Cold-start 문제 해결</li><li>애자일한 프로젝트 운영으로 초기부터 이용자를 확보하여 프로젝트 기간 총 1개월 간 누적 유저 180명, 누적 문제풀이 수 12000건 이상 달성</li><li>유저 대상 온라인 A/B 테스트를 통해 모델 추천을 통한 오답률이 랜덤 추천 대비 40% 이상 증가함을 확인하여 추천 모델의 효용성 검증</li>
 
 
 # 채용공고 AI 추천 알고리즘 대회 - 팀명 hoeen <ul class="resume-item-list"><li>public 점수의 과적합 가능성을 고려, 베이지안 최적화를 활용한 가중치 앙상블로 모델의 일반성 높임 </li>
 
-- project: NEOWISE 우주망원경 원시성 관측 데이터 분석
-  # role: Master's Student
-  duration: Jan 2020 &mdash; Aug 2021
-  url: "https://github.com/hoeen/WISE_YSO_variability_analysis"
-  description: (석사과정 연구) NEOWISE의 중적외선 관측 데이터를 활용한 원시성 약 5400개의 6.5년 간 밝기변화 양상 분석<ul class="resume-item-list"><li>SQL-like 언어인 ADQL을 이용하여 알려진 원시성 좌표에서의 밝기 데이터 추출. 단기간 샘플링을 활용하여 평균을 내는 방식으로 기존 관측장비의 높은 noise-to-ratio를 줄이는 등 RAW 데이터를 가공함. 그 결과 약 1700개의 변광 원시성을 발견.</li><li>밝기변화의 선형성 및 주기성, 밝기변화 진폭 등 데이터에 대한 새로운 feature를 생성. 이를 바탕으로 원시성의 다양한 밝기변화 형태를 6가지 (선형, 곡선형, 주기형, 일시적 폭발, 일시적 어두워짐, 불규칙형) 로 규명</li><li>각각의 진화 단계(Class 0~III) 와 대조한 결과 초기 진화 단계 (Class 0-I) 에서 밝기변화가 두드러지며 이후 단계 (Class II-III)로 갈수록 밝기변화가 감소한다는 사실을 발견. 기존 시뮬레이션을 통한 이론적 예측을 강력히 뒷받침하는 연구 결과를 도출.</li><li>미국 Astrophysical Journal에 1저자로 논문 기고하여 30회 이상 인용됨</li>
 
 
 #   # Springfield Community Outreach Group

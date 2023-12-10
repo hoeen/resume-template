@@ -93,6 +93,31 @@
       </section>
       <!-- end Projects -->
       {% endif %}
+
+      {% if site.resume_section_research %}
+      <!-- begin Projects -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Research</h2>
+        </header>
+
+        {% for project in site.data.research %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">
+            {% if project.role %}
+              {{ project.role }} &bull;
+            {% endif %}
+            {{ project.duration }}
+          </h4>
+          <p class="resume-item-copy">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
+      {% endif %}
       
       {% if site.resume_section_education %}
       <!-- begin Education -->
