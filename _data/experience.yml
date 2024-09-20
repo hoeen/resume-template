@@ -1,14 +1,28 @@
 # Jobs
-# VP of Global Communications
+
+
+- company: TmaxEduAI / (주)티맥스알지
+  position: Researcher (Full-time)
+  duration: Feb, 2023 &mdash; Now
+  summary: 
+    추천 서비스 api 개발 및 외주 MLOps 솔루션 지원 
+    <ul class="resume-item-list">
+
+    <li>
+    미래엔 수학 교과 AI 디지털 교과서 개발 - 학생 학습이력에 따른 Rule-based 문제추천 api 기획 및 개발
+    </li>
+    
+    <li>
+    멀티캠퍼스 Samsung Cloud Platform 추천엔진 이관 사업 - GPU 환경 이관, 유지보수 및 최적화 
+    </li>
+    
+    </ul>
+
 - company: Humelo Inc.
   position: AI Researcher (Full-time)
   duration: Jul, 2023 &mdash; Nov, 2023
   summary: 음성 데이터 구축 및 AI 실시간 음성변조 엔지니어링 <ul class="resume-item-list"><li>사내 레거시 코드를 활용한 AI 음성인식 openai-whisper 다국어 오디오 데이터 정제 (6개 언어 총 300시간) </li><li>오픈소스 기반 AI 실시간 음성변조 데모 모델 개발</li></ul>
 
-# 우리랑코리아 전처리
-# 음성데이터 수집 가이드라인
-# 음성변조 사용기술 조사 및 기술개선
-# 비언어 표현 테스트
 
 
 # AI researcher

@@ -1,7 +1,10 @@
 # Skills
 # Organizational leadership
-- skill: Python
+- skill: Python [3-year experience]
   description: <ul class="skills-item-list"><li>데이터 핸들링 및 시각화</li><li>통계분석, 수리모델링</li>
+
+- skill: Java [1-year experience]
+  description: <ul class="skills-item-list"><li>DB 연결 api 제작 및 문제추천 로직 생성 경험</li>
 
 # Communications strategy
 - skill: Pytorch
