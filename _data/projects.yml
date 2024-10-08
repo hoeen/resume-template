@@ -1,7 +1,7 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: 멀티캠퍼스 Samsung Cloud Platform (SCP) 추천 GPU 엔진 이관 사업 
+- project: 멀티캠퍼스 Samsung Cloud Platform <br> 추천 GPU 엔진 이관 사업 
   role: MLOps 
   duration: Jul, 2024 &mdash; Oct, 2024
   # url: "#"
@@ -50,7 +50,7 @@
     
 
 
-- project: "[Kaggle Competitions] Enefit - Predict Energy Behavior of Prosumers" 
+- project: "[Kaggle Competition] <br> Enefit - Predict Energy Behavior of Prosumers" 
   role: 225th/2,731 (Top 8%) as a Team
   duration: Jan, 2024 &mdash; Apr, 2024
   url: "https://www.kaggle.com/code/hoeen5373/deeptables-nn-lgbm-voting-catboost-ense-baa754"
@@ -66,7 +66,7 @@
 
 
 
-- project: "[Dacon Competitions] 제1회 국민대학교 AI빅데이터 분석 경진대회"
+- project: "[Dacon Competition] <br> 제1회 국민대학교 AI빅데이터 분석 경진대회"
   role: 21st/1,125 (Top 4%) as a Solo
   duration: Oct, 2023 &mdash; Nov, 2023
   # url: "#"
@@ -79,14 +79,14 @@
 
 
 
-- project: "[Kaggle Competitions] Predict Student Performance from Game Play"
+- project: "[Kaggle Competition] <br> Predict Student Performance from Game Play"
   # role: 추천 모델링 및 백엔드
   duration: May 2023 &mdash; Jun 2023
   url: "https://github.com/hoeen/student-gameplay-prediction"
   description: LSTM을 활용해 유저 게임 기록을 활용한 문제 정답 여부 예측 <ul class="resume-item-list"> <li>유저 로그를 embedded sequence data 로 변환하여 LSTM으로 예측하는 모델 구현 </li><li>logistic regression baseline 대비 F1-score 30% 향상 </li>
 
 
-- project: "[Side Project] 길동국사 - 한국사능력검정시험 기출문제 개인화 추천 서비스"
+- project: "[Side Project] 길동국사 <br> - 한국사능력검정시험 기출문제 개인화 추천 서비스"
   role: 추천 모델링 담당
   duration: Jan 2023 &mdash; Feb 2023
   url: "https://github.com/boostcampaitech4lv23recsys1/level3_productserving-level3-recsys-03"
