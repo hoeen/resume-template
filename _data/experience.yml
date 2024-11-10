@@ -5,8 +5,12 @@
   position: Researcher (Full-time)
   duration: Feb, 2024 &mdash; Now
   summary: 
-    추천 서비스 api 개발 및 외주 MLOps 솔루션 지원 
+    지식 추적 모델 및 교육 컨텐츠 추천 서비스 개발 
     <ul class="resume-item-list">
+
+    <li>
+    휴먼 팩터 - 학습 및 망각 곡선을 고려한 지식 추적 모델 개발
+    </li>
 
     <li>
     미래엔 수학 교과 AI 디지털 교과서 개발 - 학생 학습이력에 따른 Rule-based 문제추천 api 기획 및 개발
