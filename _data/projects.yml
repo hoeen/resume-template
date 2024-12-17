@@ -3,30 +3,39 @@
 
 
 - project: KEIT 정부지원사업 - 비전공자 AI 교육과정 지식 추적 모델 개발
-  role: AI 모델 구현 
+  role: (진행중) 지식추적 논문 구현, 모델 학습용 데이터셋 구축
   duration: Oct, 2024 &mdash; Now
   url: "https://github.com/hoeen/KT-with-Learning-Factors"
-  description: 모델 학습용 데이터셋 기획 및 제작, 논문 구현 (Python)
+  description: 
+    휴먼 팩터 (학습 곡선, 망각 곡선) 를 고려한 학생 지식 상태 및 시험 점수 예측 모델 구현, <br>정확도 77% 및 F1 score 0.86 달성
+    <br>
+    사용 기술 - Python (Pytorch, LangChain)
+    
     <ul class="resume-item-list">
 
+    
+
     <li>
-    휴먼 팩터 (학습 곡선, 망각 곡선) 을 고려한 학생 지식 상태 및 시험 점수 예측 모델 구현
+    풀이 로그 데이터 및 시험-스킬셋 매핑 데이터 학습, 시점 T에서 스킬셋 k에 대한 학생 u의 지식 상태를 표현 
     </li>
 
     <li>
-    Langchain 을 활용해 LLM으로 6000개 문제에 스킬셋 자동 매핑 
+    학습 및 망각 곡선의 가중치 합으로 표현되는 학생별 learning factor 학습 및 
+    학생의 학습 시간 T 시점에서의 시험 통과여부 예측
     </li>
 
     <li>
-    시험 통과 여부(1/0) 이진 분류에서 예측 정확도 77% 달성
+    학습 데이터 구축 과정에서 LangChain, GPT-4o-mini를 활용해 6000개 문제와 100여개 스킬셋 매핑, Human labeling 5시간 소요작업을 20분으로 단축. <br><br>
     </li>
 
-
-- project: 멀티캠퍼스 Samsung Cloud Platform <br> 추천 GPU 엔진 이관 사업 
+- project: 멀티캠퍼스 교육 컨텐츠 추천 파이프라인 이관 사업 
   role: MLOps 
   duration: Jul, 2024 &mdash; Oct, 2024
   # url: "#"
-  description: Airflow 를 활용한 워크플로우 설계 및 기존 레거시 코드 유지보수 (Python, Oracle)
+  description: 추천 엔진 워크플로우 관련 기존 레거시 코드 유지보수 
+    <br>
+    사용 기술 - Python (Pytorch, Pandas), Airflow, OracleDB, Docker-compose
+
     <ul class="resume-item-list">
 
     <li>
@@ -34,59 +43,109 @@
     </li>
 
     <li>
-    Docker-compose 를 활용한 airflow, mlflow 환경 빌드 및 운영/품질계 docker 이미지 일치화를 통해 추후 유지보수 및 에러 대응에 용이하게 조치
+    Docker-compose 를 활용한 Airflow 환경 빌드 및 운영/품질계 Docker 이미지 일치화를 통해 추후 유지보수 및 에러 대응에 용이하게 조치
     </li>
 
     <li>
-    pandas 이용한 기존 행 단위의 전처리 과정이 DB 데이터 증가로 인해 병목현상 발생. groupby 를 이용한 병렬 처리로 변경하여 전처리 시간 6시간에서 20분으로 단축 성과
-    </li>
+    Pandas 이용한 기존 행 단위의 전처리 과정이 DB 데이터 증가로 인해 병목현상 발생. groupby 를 이용한 병렬 처리로 변경하여 전처리 시간 6시간에서 20분으로 단축 성과
+    </li><br>
 
 - project: 미래엔 수학 교과 AI 디지털 교과서 개발
-  role: 추천 api 기획 및 개발
+  role: 학생 맞춤형 문제지 추천 API 기획 및 개발
   duration: Mar, 2024 &mdash; Sep, 2024
   # url: "#"
-  description: 학생 성취도 기반 문제지 추천 api 기획 및 개발 (Java, Tibero)
+  description: 사용 기술 - Java, Spring Boot, TiberoDB
     <ul class="resume-item-list">
 
     <li>
-    추천 시스템의 Cold-Start 환경에 대응할 수 있게 학생 성취도 정보를 바탕으로 Rule-based 형태의 문제 추천 로직 개발
+    AI 추천 시스템에서, 학생 문제풀이 이력이 부족한 Cold-Start 환경에 대응하는 Rule-based 형태의 문제 추천 API 개발
     </li>
 
     <li>
-    Tibero (Oracle-based) DB 와 API 연계 테스트, 보안 점검 및 Query 최적화로 속도 향상, ERD 설계 기획 참여 등 수행
+    학생의 성취도에 맞춘 문제 난이도 구성 Rule 및 대규모 ERD에서의 문제 추천 API Logic 설계
     </li>
 
+    <li>
+    학생의 문제풀이 이력을 조회하여 중복 없는 개인 맞춤형 문제지 생성 기능 구현
+    </li>
+
+    <li>
+    문제지 추천 API 성능 최적화 - 전국 학생 동시 접속 시나리오의 부하 테스트를 진행하며 대규모 데이터를 고려한 쿼리 로직 최적화 및 DB 인덱싱을 통해 API 호출 속도를 15초 이상에서 3초 이내로 단축
+    </li><br>
+
+
+- project: 우리랑코리아 다국어 오디오 데이터 전처리
+  role: 오디오 데이터 전사, 성능 측정
+  duration: Mar, 2024 &mdash; Sep, 2024
+  # url: "#"
+  description: OpenAI Whisper 오픈소스 모델 활용한 다국어 오디오 전사 및 성능 측정 방식 구현 
+    <br> 사용 기술 - Python (Pytorch, OpenAI-Whisper)
+    <ul class="resume-item-list">
+
+    <li>
+    6개 국어 - 중국어, 베트남어, 태국어, 인도네시아어, 러시아어, 아랍어 총 300시간의 오디오 전사 수행
+    </li>
+    <br>
+    <li>
+    데이터 조각화를 활용한 GPU 병렬화로 전사 속도 약 3배 향상<br>
+    - 기존 1배속 전사 방식의 느린 작업 시간 개선 필요성 식별.<br>
+    - 수 시간의 오디오 파일을 그대로 전사하는 기존의 방식에서, 사전에 문장 단위로 오디오를 분할하는 전처리 추가. 분할된 세그먼트 오디오를 multiprocessing의 process, queue를 이용해 병렬 처리 구현<br>
+    - 기존 50시간의 작업 단위를 약 17시간으로 단축 성과<br>
+    - 가용 GPU 개수 증가할수록 작업시간이 비례하여 줄어드는 병렬화된 전사 프로세스 구축
+    </li>
+    <br>
+    <li>
+    Phoneme Character Error Rate (PCER) 을 활용한 음소 단위의 전사 품질 측정
+    </li>
+    <br>
+    <li>
+    아랍어 문자체계 및 숫자 체계 전처리 방식 추가 등 다양한 문자체계에 대응
+    </li>
+    <br>
+
+
+    
     
 - project: "[Side Project] 제주 관광지 챗봇, 제주냥" 
   role: VectorDB 구축 및 LangChain Retriever 고도화 
   duration: Jan, 2024 &mdash; Sep, 2024
-  url: "https://jeju-nyang.streamlit.app"
-  description: LLM + RAG 프로젝트. 제주도의 관광 정보에 대한 Q&A 가능한 챗봇 구현
+  url: "https://github.com/hoeen/jeju-nyang"
+  description: SLM + RAG 프로젝트. 제주도의 관광 정보에 대한 Q&A 가능한 챗봇 구현
+    <br> 사용 기술 - Python (LangChain, Selenium, Streamlit)
     <ul class="resume-item-list">
 
     <li>
-    제주시 관광정보 및 공공 와이파이 이용자 동선 데이터를 활용, item-based CF 기반 동선 추천 및 환각 현상 없는 정보를 제공하는 챗봇 구현 
+    비짓제주 사이트 관광정보 데이터 및 공공 와이파이 이용자 동선 데이터를 활용, RAG 기반 정보 제공과 item-based CF 기반 동선 추천 기능 탑재 
     </li>
 
     <li>
-    버튼을 누르는 방식 대신 질문의 의도파악을 자동화하고 각 의도에 맞춘 정보 Querying을 구현, 다양한 질문 대응 가능.
+    질문의 의도파악 후 각 의도에 맞는 정보 Querying을 활용한 RAG 방식의 질의응답으로, 장소 / 내용 / 기타 등 다양한 사용자 질문을 판별하여 알맞은 응답 반환
     </li>
     
-
+    <li>
+    기존 SLM (경량화한 LLM. gpt-4o-mini 사용) 대비 SLM + RAG 으로 4-gram BLEU score 기준 성능 57% 향상
+    </li><br>
 
 - project: "[Kaggle Competition] <br> Enefit - Predict Energy Behavior of Prosumers" 
-  role: 225th/2,731 (Top 8%) as a Team
+  role: 225th/2,731 (Top 8%, Bronze Medal) as a Team
   duration: Jan, 2024 &mdash; Apr, 2024
-  url: "https://www.kaggle.com/code/hoeen5373/deeptables-nn-lgbm-voting-catboost-ense-baa754"
-  description: 자가 발전 가정 및 시설의 에너지 생산 및 소비 동시 예측 대회 - 팀명 tillthelastsubmission (대회 링크 - https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers)
+  url: "https://www.kaggle.com/competitions/predict-energy-behavior-of-prosumers"
+  description: 자가 발전 가정 및 시설의 에너지 생산 및 소비 동시 예측 대회 - 팀명 tillthelastsubmission
+    <br>사용 기술 - Python (Pytorch, Catboost, LightGBM)
     <ul class="resume-item-list">
+
+    <li>
+    이전 데이터를 활용하는 Lagged Feature 도입하여 부스팅 ML 모델로 시계열 특성을 학습할 수 있게 데이터 전처리
+    </li>
 
     <li>
     신경망 모델 + LightGBM + CatBoost 를 앙상블하여 모델의 일반화 능력 향상 및 baseline 모델 대비 MAE 10% 향상 (70 -> 63)
     
     </li>
     
-
+    <li>
+    제출 코드 링크 - https://www.kaggle.com/code/hoeen5373/deeptables-nn-lgbm-voting-catboost-ense-baa754
+    </li><br>
 
 
 
@@ -94,27 +153,71 @@
   role: 21st/1,125 (Top 4%) as a Solo
   duration: Oct, 2023 &mdash; Nov, 2023
   # url: "#"
-  description: 채용공고 AI 추천 알고리즘 대회 - 팀명 hoeen 
+  description: 채용공고 AI 추천 알고리즘 구현 - 단독 참여 - 팀명 hoeen 
+    <br>
+    사용 기술 - Python
     <ul class="resume-item-list">
     <li>
-    유저/아이템 협업 필터링, 콘텐츠/인기도 기반 추천, ALS MF 를 앙상블 및 베이지안 최적화 툴인 Optuna로 앙상블 수치 자체를 최적화. 모델의 일반화 성능 높임 
-    (Public 157등 -> Private 21등). 
+    Rule 및 ML 추천 모델 - 유저/아이템 협업 필터링, 콘텐츠/인기도 기반 추천, ALS MF 구현 및 앙상블 
     </li>
 
+    <li>
+    베이지안 최적화 툴인 Optuna로 앙상블 가중치를 하이퍼파라미터 튜닝
+    </li>
+
+    <li>
+    앙상블 및 튜닝 결과 모델의 일반화 성능을 높여 Public Dataset의 과적합을 피하고 Private Dataset에서 높은 성능을 보여 21등 (상위 4%) 달성
+    (Public 157등 -> Private 21등).</li><br>
 
 
 - project: "[Kaggle Competition] <br> Predict Student Performance from Game Play"
   # role: 추천 모델링 및 백엔드
   duration: May 2023 &mdash; Jun 2023
   url: "https://github.com/hoeen/student-gameplay-prediction"
-  description: LSTM을 활용해 유저 게임 기록을 활용한 문제 정답 여부 예측 <ul class="resume-item-list"> <li>유저 로그를 embedded sequence data 로 변환하여 LSTM으로 예측하는 모델 구현 </li><li>logistic regression baseline 대비 F1-score 30% 향상 </li>
+  description: 
+    유저 게임 기록 데이터를 기반으로 게임 중간에 등장하는 문제 18개 정답 여부를 예측하는 대회 
+    
+    <br> 시퀀스 임베딩 + LSTM 예측모델 구축. 사용 기술 - Python (Pytorch, WandB)
+    <ul class="resume-item-list"> 
+    <li>
+    연속형, 범주형 변수를 나누어 각각 Linear 레이어, 임베딩 레이어를 통해 유저 로그 시퀀스를 벡터화 
+    </li>
+
+    <li>
+    LSTM 모델을 활용해 유저 로그 시퀀스를 학습, Fully Connected 레이어와 Sigmoid 레이어를 통해 최종 18개의 문제풀이 확률을 0~1 사이로 반환 
+    </li>
+    
+    <li>
+    logistic regression baseline 대비 F1-score 30% 향상 
+    </li><br>
 
 
 - project: "[Side Project] 길동국사 <br> - 한국사능력검정시험 기출문제 개인화 추천 서비스"
-  role: 추천 모델링 담당
+  role: 추천 서비스 기획 및 KPI 측정, 추천 모델링
   duration: Jan 2023 &mdash; Feb 2023
   url: "https://github.com/boostcampaitech4lv23recsys1/level3_productserving-level3-recsys-03"
-  description: 유저 개인별 풀이 기록을 학습, 틀릴 가능성이 높은 문제를 개인화 추천하는 AI 서비스 구현<ul class="resume-item-list"><li>해설 키워드 형태소 추출, 임베딩을 활용한 컨텐츠 기반 추천으로 신규 유저의 Cold-start 문제 해결</li><li>애자일한 프로젝트 운영으로 초기부터 이용자를 확보하여 프로젝트 기간 총 1개월 간 누적 유저 180명, 누적 문제풀이 수 12000건 이상 달성</li><li>유저 대상 온라인 A/B 테스트를 통해 모델 추천을 통한 오답률이 랜덤 추천 대비 40% 이상 증가함을 확인하여 추천 모델의 효용성 검증</li>
+  description: 유저 개인별 풀이 기록을 학습, 틀릴 가능성이 높은 문제를 개인화 추천하는 AI 서비스 구현, 실사용자 확보 및 A/B 테스트 진행
+    <br>사용 기술 - Python (Pytorch, FastAPI)
+    <ul class="resume-item-list">
+    <li>
+    유저 풀이 기록을 바탕으로 오프라인 테스트를 통해 NDCG, Recall 지표가 높은 EASE, SASRec 모델을 선정 
+    </li>
+
+    <li>
+    해설 키워드 형태소 추출, 임베딩을 활용한 컨텐츠 기반 추천으로 풀이 기록이 적은 신규 유저의 Cold-start 문제 해결
+    </li>
+
+    <li>
+    애자일한 프로젝트 운영으로 초기부터 이용자를 확보하여 프로젝트 기간 총 1개월 간 누적 유저 180명, 누적 문제풀이 수 12000건 이상 달성
+    </li>
+
+    <li>
+    유저 대상으로 모델 추천 5문제 + 랜덤 추천 5문제를 무작위로 추천하는 'AI 문제추천' 기능을 통해 각 추천 방식의 오답률 비교 A/B 테스트
+    </li>
+
+    <li>
+    KPI를 랜덤추천보다 더 높은 오답률로 설정. 유저 대상 온라인 A/B 테스트를 통해 모델 추천을 통한 오답률이 랜덤 추천 대비 40% 이상 증가함을 확인하여 서비스의 효용성 검증
+    </li>
 
 
 # 채용공고 AI 추천 알고리즘 대회 - 팀명 hoeen <ul class="resume-item-list"><li>public 점수의 과적합 가능성을 고려, 베이지안 최적화를 활용한 가중치 앙상블로 모델의 일반성 높임 </li>

@@ -5,28 +5,39 @@
   position: Researcher (Full-time)
   duration: Feb, 2024 &mdash; Now
   summary: 
-    지식 추적 모델 및 교육 컨텐츠 추천 서비스 개발 
+    지식 추적 모델링 및 추천 시스템 유지보수, AI 기반 교육 서비스 설계
     <ul class="resume-item-list">
 
     <li>
-    휴먼 팩터 - 학습 및 망각 곡선을 고려한 지식 추적 모델 개발
+    지식 추적 모델링 - 학습 및 망각 곡선을 적용한 AI 지식 추적 모델 개발 
     </li>
 
     <li>
-    미래엔 수학 교과 AI 디지털 교과서 개발 - 학생 학습이력에 따른 Rule-based 문제추천 api 기획 및 개발
+    데이터 파이프라인 유지보수 - GPU 환경 이관, 유지보수 및 최적화 
     </li>
     
     <li>
-    멀티캠퍼스 Samsung Cloud Platform 추천엔진 이관 사업 - GPU 환경 이관, 유지보수 및 최적화 
+    AI 디지털 교과서 개발 - 학생 학습이력 기반 Rule-based 문제추천 api 기획 및 개발
     </li>
+    
+    
     
     </ul>
 
 - company: Humelo Inc.
-  position: AI Researcher (Full-time)
+  position: Voice AI Engineer (Full-time)
   duration: Jul, 2023 &mdash; Nov, 2023
-  summary: 음성 데이터 구축 및 AI 실시간 음성변조 엔지니어링 <ul class="resume-item-list"><li>사내 레거시 코드를 활용한 AI 음성인식 openai-whisper 다국어 오디오 데이터 정제 (6개 언어 총 300시간) </li><li>오픈소스 기반 AI 실시간 음성변조 데모 모델 개발
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></li></ul>
+  summary:  
+    <ul class="resume-item-list">
+    
+    <li>
+    다국어 오디오 데이터 전사 및 Phoneme CER 품질 측정
+    </li>
+    
+    <li>
+    AI 실시간 음성변조 오픈소스 테스팅
+    </li>
+    </ul>
   
 
 
