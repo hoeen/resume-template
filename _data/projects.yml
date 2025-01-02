@@ -4,7 +4,7 @@
 
 - project: KEIT 정부지원사업 - 비전공자 AI 교육과정 지식 추적 모델 개발
   role: (진행중) 지식추적 논문 구현, 모델 학습용 데이터셋 구축
-  duration: Oct, 2024 &mdash; Now
+  duration: Oct, 2024 &mdash; Dec, 2024
   url: "https://github.com/hoeen/KT-with-Learning-Factors"
   description: 
     휴먼 팩터 (학습 곡선, 망각 곡선) 를 고려한 학생 지식 상태 및 시험 점수 예측 모델 구현, <br>정확도 77% 및 F1 score 0.86 달성
@@ -71,12 +71,12 @@
 
     <li>
     문제지 추천 API 성능 최적화 - 전국 학생 동시 접속 시나리오의 부하 테스트를 진행하며 대규모 데이터를 고려한 쿼리 로직 최적화 및 DB 인덱싱을 통해 API 호출 속도를 15초 이상에서 3초 이내로 단축
-    </li><br>
+    </li><br><br><br><br><br><br><br><br>
 
 
 - project: 우리랑코리아 다국어 오디오 데이터 전처리
   role: 오디오 데이터 전사, 성능 측정
-  duration: Mar, 2024 &mdash; Sep, 2024
+  duration: Jul, 2023 &mdash; Sep, 2023
   # url: "#"
   description: OpenAI Whisper 오픈소스 모델 활용한 다국어 오디오 전사 및 성능 측정 방식 구현 
     <br> 사용 기술 - Python (Pytorch, OpenAI-Whisper)
@@ -145,7 +145,7 @@
     
     <li>
     제출 코드 링크 - https://www.kaggle.com/code/hoeen5373/deeptables-nn-lgbm-voting-catboost-ense-baa754
-    </li><br>
+    </li><br><br><br><br><br>
 
 
 
@@ -217,7 +217,7 @@
 
     <li>
     KPI를 랜덤추천보다 더 높은 오답률로 설정. 유저 대상 온라인 A/B 테스트를 통해 모델 추천을 통한 오답률이 랜덤 추천 대비 40% 이상 증가함을 확인하여 서비스의 효용성 검증
-    </li>
+    </li><br><br><br><br><br><br>
 
 
 # 채용공고 AI 추천 알고리즘 대회 - 팀명 hoeen <ul class="resume-item-list"><li>public 점수의 과적합 가능성을 고려, 베이지안 최적화를 활용한 가중치 앙상블로 모델의 일반성 높임 </li>
