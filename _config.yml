@@ -23,15 +23,18 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>첫 데이터 관련 프로젝트에서 1저자로 SCIE급 논문을 써낸 <br>높은 잠재력의 데이터 엔지니어, 박우석입니다. <br><br>
+resume_header_intro: "<p>첫 데이터 분석 프로젝트에서 1저자로 SCIE급 논문을 써낸 <br>높은 잠재력의 소유자, 박우석입니다. <br><br>
   천문학 관측 데이터 분석을 통해 noisy한 데이터의 전처리 방법과 새로운 feature들을 <br>학계에 제안했으며 약 2700회 다운로드, 70회 이상 인용되는 성과를 낳았습니다.
   <br><br>
-  이후 음성 분야에서 병렬처리를 활용한 Speech-To-Text 전사 속도 단축, <br>교육 분야에서 추천 파이프라인 최적화, 지식추적 AI 모델 개발을 담당하며 <br>다양한 분야에서 데이터를 통한 성과를 도출하였으며, 
-  <br>
-  Java, Python 을 통한 K8s, Docker 환경에서의 <br> API 및 파이프라인 운영 경험 또한 겸비하였습니다.
+  이후 음성 분야에서 병렬처리를 활용한 Speech-To-Text 전사 속도 단축, <br>교육 분야에서 추천 파이프라인 최적화, 지식추적 AI 모델 개발을 담당하며 <br>다양한 AI 도메인에서 성과를 도출하였습니다. 
   <br><br>
-  분석 논문을 기고한 경험을 통해 데이터 분석 결과를 효과적인 메시지로 전달하겠으며, <br> 클라우드/온프레미스 환경에서의 데이터 정합성 및 거버넌스 향상에 만전을 기하겠습니다. <br> <br><br><br></p>"
-
+  데이콘 대회 상위 4% 진입, 캐글 동메달 수여를 통해 <br>머신러닝 모델링 및 데이터 분석 실력을 검증하였으며,
+  <br><br>
+  사이드 프로젝트로 추천 모델을 통합한 SLM+RAG 챗봇으로 <br> 기존 SLM의 성능을 최대 65% 향상시켰고, <br> 한능검 추천 ai 프로젝트에서 실사용자 A/B테스트를 통해 KPI를 달성하는 등
+  <br>개인화 추천 AI 서비스 기획 뿐 아니라 그 성과를 정량적으로 측정하려 노력하고 있습니다.
+  <br><br>
+  분석 논문을 기고한 경험을 통해 데이터 분석 결과를 효과적인 메시지로 전달하겠으며, <br>다양한 도메인에서의 머신러닝 경험을 바탕으로 <br>
+  새로운 환경에 빠르게 적응하고 주어진 문제들을 해결하겠습니다. <br><br><br></p>"
 
 # resume_header_intro: "<p>
 #   사용자 지식 추적 및 추천 시스템 분야에서 경험을 쌓은 AI 개발자입니다.  <br>
